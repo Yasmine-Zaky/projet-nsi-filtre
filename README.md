@@ -1,8 +1,8 @@
 # projet-nsi-filtre
 
-Introduction
+## Introduction
 
-Description du projet
+- Description du projet
 Creation d'une appli qui permet de modifier la luminosité, le contraste et ajouter des filtres sur des photos
 
 
