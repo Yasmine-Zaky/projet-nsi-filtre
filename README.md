@@ -22,27 +22,27 @@
 ## Liste des fonctions 
  
  ```
-  def filtre (couleurs, décormation du visage, accessoires):
+  def filtre (image, couleurs, décormation du visage, accessoires):
       """
       La fonction mettra le filtre choisi par la personne, noir et blanc - nuance de                 couleurs
       """
   
-  def blur ():
+  def blur (image,):
        """
        La fonction mettra l'image en flou avec différentes capacités de floutage, de 0 - 100
         """
  
- def format (y;x):
+ def format (image,):
       """
       La fonction s'adaptera avec la forme d'image choisi par la personne, JPEG - PNG - JPG - JFIF - PJP - PJPEG - SVG - WEBP
       """
       
- def éclairage (luminausité , contraste):
+ def éclairage (image, luminausité , contraste):
       """
       La fonction pourra augmenter/baisser la luminausité et le contraste, de 0 - 100
       """
       
-def accessoires (chapeau, maquillage, boucles d'oreille, oreille de lapin): 
+def accessoires (image, chapeau, maquillage, boucles d'oreille, oreille de lapin): 
       """
       La fonction mettra tout ce que la personne séléctionera dans le choix d'accessoire
       """   
