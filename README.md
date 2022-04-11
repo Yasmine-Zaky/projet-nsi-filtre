@@ -47,3 +47,8 @@ def accessoires (chapeau, maquillage, boucles d'oreille, oreille de lapin):
       La fonction mettra tout ce que la personne séléctionera dans le choix d'accessoire
       """   
 ```
+
+
+## Jeux de tests
+
+Nous allons tester si les filtres et les accessoires seront compatible avec l'image choisie (les bonnes couleurs et le bon repérage de visage).
