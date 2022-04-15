@@ -14,4 +14,4 @@ J'ai créer le GitHub et présenter en plusieurs étape mon projet :
 J'ai organiser mes répertoires et écrit mon premier code pour le jeux de tests.
 
 ### 14/04/2022 - 15/04/2022
-...
+J'ai commencé à réaliser mon code.
