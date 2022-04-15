@@ -1,17 +1,24 @@
 # Dans Python Imaging Library importer image
 from PIL import Image
+
 # img abréviation d'image, ouvrir image
 img = Image.open("Paysage de montagne.jpg")
+
 # Dimension de l'image en pixel
 largeur_image=1400
 hauteur_image=875
+
 # Création de filtre
 for y in range(hauteur_image):
     for x in range(largeur_image):
-    rouge,vert,bleu=img.getpixel((x,y)) # Prendre tous les pixels pour changer la couleur de l'image intégralement en les mettant par groupe de couleur
-    nouveau_rouge=(vert+bleu+rouge)//3 # Groupe de rouge 
-    nouveau_vert=(vert+bleu+rouge)//3 # Groupe de vert
-    nouveau_bleu=(vert+bleu+rouge)//3 # Groupe de bleu
-    img.putpixel((x,y),(nouveau_rouge,nouveau_vert,nouveau_bleu)) # Mettre les nouvelles couleurs de pixel dans l'image 
+# Prendre tous les pixels pour changer la couleur de l'image intégralement en les mettant par groupe de couleur
+    FF0000; 00FF00, 0000FF = img.getx,y)) 
+# Rouge / Vert / Bleu
+    nouveau_rouge=(255 + 47 + 47)//3 # Rouge clair
+    nouveau_vert=(86 + 232 + 86)//3 # Vert clair
+    nouveau_bleu=(62 + 154 + 211)//3 # Bleu clair
+# Mettre les nouvelles couleurs de pixel dans l'image 
+    img.putpixel((x,y),(FF2F2F, 56E856, 3E9AD3)) 
 img.show() # Montrer le résultat final
-img.save("Paysage de montagnegrise.jpg") # Sauvegarder les modification sur le même ficher 
+# Sauvegarder les modification sur le même ficher 
+img.save("Paysage de montagnegrise.jpg") 
